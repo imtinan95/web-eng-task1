@@ -7,9 +7,8 @@ margin: 24px;
 .Header{
     display: flex;
     align-items: center;
-    align-content: center;
-    justify-content: center;
-    
+    align-content: space-around;
+    justify-content: space-around;
 }
 .Name{
     text-align: center;
@@ -41,4 +40,8 @@ margin: 24px;
 }
 .Tools h4{
     margin: 0px;
+}
+.TaskLink{
+    font-size: 24px;
+    margin: 50px;
 }
