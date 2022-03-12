@@ -1,0 +1,44 @@
+html{
+    background-color:wheat;
+}
+body{
+margin: 24px;
+}
+.Header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+.Name{
+    text-align: center;
+}
+.Reg{
+    text-align: center;
+}
+.Proposal{
+    margin: 24px;
+    padding: 12px;
+}
+.Objectives{
+    margin-left: 24px;
+    padding: 16px;
+}
+.Objectives h4{
+    margin: 0px;
+}
+.Feasibilty{
+    margin-left: 24px;
+    padding: 16px;
+}
+.Feasibilty h4{
+    margin: 0px;
+}
+.Tools{
+    margin-left: 24px;
+    padding: 16px;
+}
+.Tools h4{
+    margin: 0px;
+}
