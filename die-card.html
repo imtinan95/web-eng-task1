@@ -5,28 +5,10 @@
   <head>
     <meta charset="utf-8" />
     <title>Die Rolling Frequencies</title>
-    <style type="text/css">
-      img {
-        margin-right: 10px;
-      }
-      table {
-        width: 200px;
-        border-collapse: collapse;
-        background-color: lightblue;
-      }
-      table,
-      td,
-      th {
-        border: 1px solid black;
-        padding: 4px;
-        margin-top: 20px;
-      }
-      th {
-        text-align: left;
-        color: white;
-        background-color: darkblue;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dice.css">
     <script>
       var frequency1 = 0;
       var frequency2 = 0;
@@ -138,6 +120,10 @@
     </script>
   </head>
   <body>
+    <div class="name">
+      <h1>Muhammad Imtinan Ul Haq</h1>
+      <h2>4018-FBAS/BSCS4/F18</h2>
+    </div>
     <p>
       <img id="die1" src="blank.png" alt="die 1 image" width="75px" />
       <img id="die2" src="blank.png" alt="die 2 image" width="75px"/>
@@ -157,6 +143,6 @@
     <form action="#">
       <input id="rollButton" type="button" value="Roll Dice" />
     </form>
-    <div id="frequencyTableDiv"></div>
+    <div class="frequencyTableDiv" id="frequencyTableDiv"></div>
   </body>
 </html>
